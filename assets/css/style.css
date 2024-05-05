@@ -1,0 +1,193 @@
+body {
+  font-family: "Circular";
+}
+
+main {
+  .left-icons {
+    color: rgb(179, 179, 179);
+    cursor: pointer;
+    display: flex;
+    margin-bottom: 20px;
+    svg {
+      margin-right: 20px;
+      height: 24px;
+      width: 24px;
+    }
+    p {
+      margin: 0;
+    }
+    img {
+      margin-right: 20px;
+      height: 24px;
+      width: 24px;
+      border-radius: 3px;
+    }
+    .bookmark-icon {
+      margin-right: 20px;
+      height: 24px;
+      width: 24px;
+      border-radius: 3px;
+      background-color: #004537;
+      display: flex;
+      justify-content: center;
+      svg {
+        color: #129644;
+        width: 13px;
+        margin: 0;
+      }
+    }
+  }
+  .left-icons:hover {
+    color: white;
+  }
+  /* .right-section {
+     
+        
+      }
+    } */
+}
+.horizontal-rule {
+  border-top: 1px solid rgb(90, 90, 90);
+}
+.friends-activity {
+  color: rgb(179, 179, 179);
+  p {
+    font-weight: 500;
+    color: white;
+    margin: 0;
+  }
+  svg {
+    :hover {
+      color: white;
+    }
+  }
+}
+.color-text {
+  color: rgb(179, 179, 179);
+}
+.icons-right-side {
+  list-style: none;
+}
+.friend-image {
+  border-radius: 50%;
+  width: 3rem;
+  margin-inline-end: 5px;
+}
+
+.session-time {
+  font-size: 0.7rem;
+}
+
+.card-title {
+  font-size: 1rem;
+}
+
+.album-section {
+  padding: 0;
+  margin: 0;
+}
+.card-body {
+  padding: 0;
+}
+
+.album-section {
+  p {
+    font-size: 0.8em;
+    small {
+      font-size: 0.7em;
+    }
+  }
+}
+.playlist-container {
+  p:hover {
+    color: white;
+    cursor: pointer;
+  }
+}
+.playlist-container {
+  padding-block-start: 0.5rem;
+  height: 500px;
+}
+.playlist-container > ul {
+  padding-inline-start: 0;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: grey;
+}
+.middle-section-btn-container {
+  background-color: #131313;
+  border-radius: 50%;
+}
+.dropdown button {
+  border-radius: 20px;
+  padding: 1px 12px 1px 1px;
+  background-color: #0a0a0a;
+  border: 0;
+  img {
+    border-radius: 50%;
+  }
+}
+.middle-section-btn-container button {
+  width: 32px;
+}
+
+/* SAVE AND PLAY BTN RIGA 336  */
+#albumBtnGreen {
+  background-color: #1ed760;
+  border: 0px solid transparent;
+  padding: 5px;
+}
+#hoverCard:hover {
+  background-color: white;
+}
+.imgPlaylistLeft {
+  margin-right: 10px;
+  border-radius: 3px;
+  width: 40px;
+  height: 40px;
+}
+
+#collapse-left-side-button {
+  margin-right: 20px;
+  padding: 2px;
+}
+
+#artistsZone {
+  margin-bottom: 20px;
+  img.artistCircle {
+    border-radius: 50%;
+    width: 100%;
+  }
+  p.artistName {
+    font-size: 0.9em;
+    margin: 0;
+    margin-top: 7px;
+  }
+  p.artistType {
+    margin: 0;
+    font-size: 0.8em;
+  }
+  .artistCard {
+    padding: 10px;
+  }
+  .artistCard:hover {
+    background-color: #434547;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+  }
+}
+
+#viola-card {
+  border-top: 2px solid #252525;
+}

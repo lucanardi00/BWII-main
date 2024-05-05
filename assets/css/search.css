@@ -1,0 +1,47 @@
+.artist-and-tracks-container {
+  .card {
+    .card-img-top {
+      border-radius: 50%;
+      width: 150px;
+    }
+    h5 {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+.artist-container {
+  background-color: #080600;
+  width: 100%;
+}
+
+.artist-container:hover {
+  background-color: #191919;
+}
+
+.list-group-item {
+  background-color: transparent;
+  border: none;
+}
+
+.list-group-item:hover {
+  background-color: #191919;
+}
+
+ul {
+  border: none;
+}
+
+.playlist-card-container {
+  p {
+    text-overflow: ellipsis;
+  }
+  min-height: 220px;
+}
+#search-value::placeholder {
+  color: white;
+}
+input#search-value {
+  background-color: transparent;
+  border-radius: 20px;
+}

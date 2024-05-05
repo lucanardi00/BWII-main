@@ -1,0 +1,36 @@
+.album {
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+.album-h1 {
+  font-size: 4.5rem;
+}
+
+.text-right > img {
+  border-radius: 50%;
+}
+
+.main-section {
+  background: rgb(33, 37, 41);
+  background: linear-gradient(0deg, rgba(33, 37, 41, 1) 36%, rgba(253, 208, 46, 1) 100%);
+}
+
+.album button:hover {
+  scale: 1.1;
+}
+
+.song-info:hover {
+  background-color: #000;
+  color: #fff;
+  opacity: 0.5;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.song-list{
+  background: rgb(33,37,41);
+background: linear-gradient(0deg, rgba(33,37,41,0.33657212885154064) 99%, rgba(94,84,43,1) 100%);
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
